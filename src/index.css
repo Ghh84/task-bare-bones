@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+#div{
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  font-size: 28px;
+}
+#span{
+  padding: 70px;
+}
+#span1{
+  color: rgb(48, 247, 3);
+}
+table {
+  font-size: 24px;
+  padding: 20px;
+  }
+#tableHeader{
+  font-weight: 800;
+  background-color: white;
+  color: blue;
+}
+#tableBody{
+  background-color: blue;
+  color: white;
+}
+#foot {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  font-size: 28px;
+  color: rgb(43, 15, 203);
+  background-color: white;
+}
+#delay{
+  background-color: rgb(214, 36, 36);
+}
+

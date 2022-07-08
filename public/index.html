@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<meta name="description" content="Web site created using create-react-app" />
+    
+		<title>React Redux Barebones</title>
+		<script type="text/javascript"> 
+		function display_c(){
+			var refresh=1000; // Refresh rate in milli seconds
+			mytime=setTimeout('display_ct()',refresh)
+			}
+		function display_ct() {
+			var date = new Date() 
+			const currentTime =  date.getHours( )+ ":" +  date.getMinutes() + ":" +  date.getSeconds();
+			document.getElementById('ct').innerHTML = currentTime;
+			display_c();
+		}
+	</script>
+	</head>
+	<body onload=display_ct();>
+		<div id="foot"><span id='ct' ></span></div> 
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+	</body>
+</html>
